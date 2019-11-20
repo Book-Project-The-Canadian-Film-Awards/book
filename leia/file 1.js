@@ -3,7 +3,7 @@
 let moonImage;
 
 function preload(){
-moonImage = loadImage(img/moon boy.jpg);
+moonImage = loadImage(img/moonboy.jpg);
 }
 
 function setup(){
@@ -12,6 +12,8 @@ image(moonImage,0,0);
 }
 
 function draw(){
-
+fill(0);
+textSize(30);
+text(rotationZ,0,height/2);
 
 }
