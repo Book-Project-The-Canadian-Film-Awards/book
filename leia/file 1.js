@@ -3,7 +3,7 @@
 let moonImage;
 
 function preload(){
-moonImage = loadImage(img/moonboy.jpg);
+moonImage = loadImage("img/moonboy.jpg");
 }
 
 function setup(){
